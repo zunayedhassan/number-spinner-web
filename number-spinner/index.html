@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Number Spinner</title>
+        
+        <!-- Number Spinner -->
+        <link rel="stylesheet" type="text/css" href="assets/css/number-spinner.css" />
+        <script type="text/javascript" src="assets/js/number-spinner.js"></script>
+    </head>
+    <body>
+        <main>
+            <section>
+                <h1>Number Spinner Example</h1>
+
+                <!-- Number Spinner -->
+                <span class="number-spinner">
+                    <input type="text" data-min="0" data-max="10" data-step="0.5" value="5" />
+
+                    <span>
+                        <button>&#9650;</button>
+                        <button>&#9660;</button>
+                    </span>
+                </span>
+                
+            </section>
+        </main>
+        
+        <script type="text/javascript">
+            (function main() {
+                
+                InitializeAllNumberSpinners();
+                
+            }) ();
+        </script>
+    </body>
+</html>

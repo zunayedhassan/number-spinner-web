@@ -1,0 +1,67 @@
+/* 
+    Created on : Nov 13, 2018, 3:12:49 PM
+    Author     : Zuayed Hassan
+*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+            
+.number-spinner {
+    border: 1px solid #c7c8c9;
+    height: 1.6em;
+    border-radius: 0.25em;
+    background: white;
+    font-family: 'Roboto', sans-serif;
+    width: 80px;
+}
+
+.number-spinner,
+.number-spinner > * {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.number-spinner button {
+    display: block;
+    font-size: 0.5em;
+    margin: 0;
+    padding: 0.25em;
+    background: none;
+    border: none;
+    color: #77818c;
+    cursor: pointer;
+    border-radius: 100%;
+    transition: background-color 0.5s;
+}
+
+.number-spinner button:hover {
+    background: lightgray;
+}
+
+.number-spinner button:active {
+    background: #34495e;
+    color: #ffffff;
+}
+
+.number-spinner input[type="text"] {
+    background: transparent;
+    border: 1px solid transparent;
+    border-radius: 0.25em 0 0 0.25em;
+    height: 100%;
+    padding: 0 0 0 0.35em;
+    box-sizing: border-box;
+    transition: border-color 0.7s;
+    max-width: 80%;
+}
+
+.number-spinner input[type="text"]:focus {
+    border-color: cornflowerblue;
+}
+
+.number-spinner * {
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+.number-spinner *:focus {
+    outline: none;
+}
